@@ -6,6 +6,7 @@ After=network.target
 ExecStart=/usr/local/sbin/haproxy-galera
 User=mysql
 Group=mysql
+Restart=always
 
 [Install]
 WantedBy=multi-user.target
